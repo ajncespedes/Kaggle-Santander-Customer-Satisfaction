@@ -1,6 +1,7 @@
 # Kaggle-Santander-Customer-Satisfaction
 
-This repository contains the best code developed for the [Santander Customer Satisfaction](https://www.kaggle.com/c/santander-customer-satisfaction). It is written in R. The code generates a model which get 0.840336 in the public leader-board and 0.828114 in the private leader-board, which means Rank 12.
+This repository contains the best code developed for the [Santander Customer Satisfaction](https://www.kaggle.com/c/santander-customer-satisfaction). It is written in R. The code generates a model which get 0.840336 in the public leader-board and 0.828114 in the private leader-board, which means Rank 12. 
+At the end of the contest, I got rank 548 but I realised that I had a model that would have ranked about 12th. So in this repository I will try to improve that model as much as I can.
 
 
 # Description
