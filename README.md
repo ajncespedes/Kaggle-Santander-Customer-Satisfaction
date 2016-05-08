@@ -14,4 +14,4 @@ Santander Bank is asking Kagglers to help them identify dissatisfied customers e
 
 First of all, the dataset have repeated instances with different class labels, which means noise. So, I extracted the noisy instances and splitted the others instances into 5 partitions. Finally, I made an ensemble to predict the noisy instances and I inserted them with the real class label into the train data. 
 
-The dataset is highly unbalance, so I decided to separate the instances which have 0 class and 1 class in order to make number_of_class0/number_of_class1 partitions (undersampling) of 0 class joined with the same 1 class instances.  After that, I run the 24 resulting models with xgboost and finally I made a simple average ensemble.
+The dataset is highly unbalance, so I decided to separate the instances which have 0 class and 1 class in order to make number_of_class0/number_of_class1 partitions (undersampling) of 0 class joined with the same 1 class instances.  After that, I ran the 24 resulting models with xgboost and finally I made a simple average ensemble.
